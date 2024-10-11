@@ -1328,12 +1328,14 @@ nav .slider-features {
 }
 .content-feature .work-cards-feature {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(386px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 16px; 
     justify-content: center;
     border-radius: 16px;
     border: 1px solid var(--Brown-50);
-    max-width: 1179px;
+    max-width: 100%; 
     margin: 0 auto;
+    padding: 16px; 
 }
 
 .content-feature .work-cards-feature .feature-card {
@@ -1738,13 +1740,14 @@ nav .slider-features {
 
 .custommer .cust-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(389.33px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); 
     align-self: stretch;
     justify-content: center;
-    gap: 30px;
+    gap: 30px; 
     border-radius: var(--spacing-6, 24px);
-    max-width: 1228px;
+    max-width: 100%; 
     margin: 0 auto;
+    padding: 16px; 
 }
 
 .custommer .cust-container .card-cust {
