@@ -1402,9 +1402,6 @@ nav .slider-features {
 .main-container-right {
     flex-direction: row-reverse;
 }
-.main-container-right img {
-    max-width: 556px;
-}
 .feature-image-wrapper {
     max-width: 480px;
     height: auto;
